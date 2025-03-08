@@ -128,7 +128,7 @@ function App() {
               <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-lg opacity-75 animate-glow" />
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full animate-rotate" />
               <img 
-                src="https://media.discordapp.net/attachments/1152670774046507220/1347235140476207174/193EAF62-5C92-4726-9A95-0F3658E54BBD.png?ex=67cb15ff&is=67c9c47f&hm=9eb00716850e20dfd091e7b44d048530a488e0a3d755cd84df4b3c6556367890&=&format=webp&quality=lossless&width=712&height=712"
+                src="/snoopy.png"
                 alt="Mona Snoopy"
                 className="w-48 h-48 relative rounded-full object-cover animate-float transform transition-transform duration-300 group-hover:scale-110"
               />
