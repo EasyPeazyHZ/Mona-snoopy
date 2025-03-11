@@ -149,7 +149,7 @@ function App() {
               </div>
               <div className="flex justify-center gap-4">
                 <div className="px-6 py-3 bg-purple-600/20 backdrop-blur-sm rounded-xl border border-purple-500/30 animate-float transform transition-all duration-300 hover:scale-110 hover:bg-purple-600/30">
-                  <p className="text-2xl font-bold">5,000</p>
+                  <p className="text-2xl font-bold">TBA</p>
                   <p className="text-sm text-gray-400">Total Supply</p>
                 </div>
                 <div className="px-6 py-3 bg-pink-600/20 backdrop-blur-sm rounded-xl border border-pink-500/30 animate-float-delayed transform transition-all duration-300 hover:scale-110 hover:bg-pink-600/30">
