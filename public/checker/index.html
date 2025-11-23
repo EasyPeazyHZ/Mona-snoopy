@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mona Snoopy Whitelist Checker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ★ FULLSCREEN BACKGROUND VIDEO ★ -->
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="background.mp4" type="video/mp4">
+  </video>
+
+  <!-- ★ SOCIAL ICONS TOP-RIGHT ★ -->
+  <div class="social-links">
+    <a href="https://x.com/Mona_Snoopy" target="_blank" aria-label="X">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+    <a href="https://discord.gg/6qP33fHh" target="_blank" aria-label="Discord">
+      <i class="fa-brands fa-discord"></i>
+    </a>
+  </div>
+
+  <div class="page">
+
+    <!-- ★ TITLE AREA ★ -->
+    <header class="hero">
+      <h1 class="hero-title">Mona Snoopy</h1>
+      <p class="hero-subtitle">Wallet Whitelist Checker</p>
+
+<p class="hero-tagline">
+  Paste your wallet to see if you’re in the Snoopy squad
+  <span class="sparkle">✨</span>
+</p>
+</p>
+    </header>
+
+    <!-- ★ FORM (GLASS EFFECT BARS) ★ -->
+    <main class="card">
+      <section class="form-section">
+
+        <label class="label-title" for="wallet-input">Wallet Address</label>
+
+        <div class="input-wrapper">
+          <input id="wallet-input" type="text" placeholder="0x..." autocomplete="off" />
+          <span class="icon">🔍</span>
+        </div>
+
+        <button id="check-btn">
+          <span class="btn-icon">🔍</span>
+          Check My Status!
+        </button>
+
+        <section id="result" class="result hidden"></section>
+      </section>
+    </main>
+
+    <!-- ★ FOOTER ★ -->
+    <footer class="footer">
+      <div class="footer-text">Made with 💜 under the sea for the Mona Snoopy crew.</div>
+      <div class="credits">© <span id="year"></span> Mona Snoopy • Wallet Checker</div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
